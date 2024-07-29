@@ -1,0 +1,13 @@
+public class Reservation {
+    private String reservationID;
+    private Passenger passenger;
+    private Flight flight;
+    private Seat seat;
+
+    public Reservation(String reservationID, Passenger passenger, Flight flight, Seat seat) {
+        this.reservationID = reservationID;
+        this.passenger = passenger;
+        this.flight = flight;
+        this.seat = seat;
+    }
+}
