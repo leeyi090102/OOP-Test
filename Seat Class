@@ -1,0 +1,19 @@
+public class Seat {
+    private String seatNumber;
+    private String seatClass; // economy, business
+    private boolean availability;
+
+    public Seat(String seatNumber, String seatClass, boolean availability) {
+        this.seatNumber = seatNumber;
+        this.seatClass = seatClass;
+        this.availability = availability;
+    }
+
+    public void setAvailability(boolean availability) {
+        this.availability = availability;
+    }
+
+    public boolean isAvailable() {
+        return availability;
+    }
+}
